@@ -1,10 +1,11 @@
+import "./App.css";
 
-import './App.css';
+import Example from "./components/Disclosure";
 
 function App() {
   return (
-    <div className="container bg-gray-400">
-      hey
+    <div>
+      <Example />
     </div>
   );
 }
