@@ -6,6 +6,8 @@ import Product from "./components/Product";
 import Grid from "./components/Grid";
 import Form from "./components/Form";
 
+import pancake from './assets/pancake.jpg'
+
 
 
 function App() {
@@ -18,7 +20,8 @@ function App() {
       <Button className="mt-6" />
       <Product />
       <p
-        className="w-4/12 p-6 bg-gradient-to-br from-yellow-400 to-blue-500 mx-auto mb-5 bg-clip-text font-extrabold text-xl text-transparent bg-local"
+        className="w-4/12 p-6 mx-auto mb-5 font-extrabold text-xl bg-local bg-cover"
+        style={{backgroundImage: `url(${pancake})`}}
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
         blanditiis et repudiandae atque ipsam explicabo cum recusandae commodi
