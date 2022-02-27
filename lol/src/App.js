@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import Product from "./components/Product";
 import Grid from "./components/Grid";
 import Form from "./components/Form";
+import MyTabs from './components/MyTabs'
 
 import pancake from './assets/pancake.jpg'
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <Grid />
+      <MyTabs />
       <Form />
       <Flex />
       <Example />
